@@ -1,5 +1,6 @@
 package driver
 
+// DIALECTOR support mysql/sqlite/postgres/mssql
 type DIALECTOR string
 
 const (
