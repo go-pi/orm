@@ -23,3 +23,8 @@ func (d DIALECTOR) String() string {
 	}
 	return "unknown"
 }
+
+type Driver interface {
+	Name() string
+	DNS() string
+}
